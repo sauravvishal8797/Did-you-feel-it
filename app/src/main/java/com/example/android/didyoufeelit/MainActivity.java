@@ -17,6 +17,8 @@ package com.example.android.didyoufeelit;
 
 import static com.example.android.didyoufeelit.Utils.LOG_TAG;
 
+import static android.os.Build.VERSION_CODES.M;
+
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -41,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+        EarthQuakeAsyncTask earthQuakeAsyncTask = new EarthQuakeAsyncTask();
+        earthQuakeAsyncTask.execute();
            }
 
     /**
