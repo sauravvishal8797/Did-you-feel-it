@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/saurav/Desktop/Did-you-feel-it/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/saurav/Desktop/Did-you-feel-it/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5c89c5f99f8da34804fec5e213538ccf0762e18c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/saurav/Desktop/Did-you-feel-it/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="698f975e2c059ffe51c1b11ed470f65f68ed0456">
+        <dex dex="/home/saurav/Desktop/Did-you-feel-it/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_721f567c65d84d4ff3f81082c70745c98a1b12c8/classes.dex" />
+    </item>
+
+</items>

@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         EarthQuakeAsyncTask earthQuakeAsyncTask = new EarthQuakeAsyncTask();
-        earthQuakeAsyncTask.execute();
+        earthQuakeAsyncTask.execute(USGS_REQUEST_URL);
            }
 
     /**
